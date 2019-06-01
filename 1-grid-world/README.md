@@ -1,6 +1,6 @@
-# Grid World with Reinforcement Learning 
-This is Grid World example that we made for the simple algorithm test
-The game is simple. The red rectangle must arrive in the circle, avoiding triangle.
+# 격자 환경에서의 강화학습
+다음은 간단한 알고리즘 테스트를 위해서 만든 격자 환경 예제입니다.
+게임의 규칙은 간단합니다. 삼각형을 피하면서 빨간 사각형이 원에 도착하도록 하면 됩니다.
 
 <p align="left"><img width="40%" src="./gridworld.png" /></p>
 
@@ -8,25 +8,25 @@ The game is simple. The red rectangle must arrive in the circle, avoiding triang
 
 
 
-## Dynamic Programming
-**1. Policy Iteration**
+## 동적 프로그래밍
+**1. 정책 이터레이션**
 
-**2. Value Iteration**
+**2. 가치 반복**
     
 <br/>
 
-## Reinforcement Learning Fundamental Algorithms
-**3. Monte-Carlo**
+## 강화학습 기본 알고리즘
+**3. 몬테카를로 방법**
 
 **4. SARSA**
 
-**5. Q-Learning**
+**5. Q-러닝**
 
 <br/>
 
-## Futher Reinforcement Learning Algorithms
->we have changed Grid World so the obstacles are moving. To solve this problem, we have to use function approximator. 
-We used Neural Network as function approximator
+## 강화학습 심화 알고리즘
+>원래의 격자 환경을 바꿔서 장애물들이 움직이도록 하였습니다. 이 문제를 해결하기 위해서는 함수 근사 장치를 이용해야 합니다. 
+여기에서는 함수 근사 장치로서 신경망을 이용하였습니다.
 
 <p align="left"><img width="40%" src="./gridworld_changing.png" /></p>
 
