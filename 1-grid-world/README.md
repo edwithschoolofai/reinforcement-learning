@@ -34,6 +34,6 @@
 
 **6. DQN**
 
-**7. Policy Gradient**
+**7. 정책 경사**
     
     
